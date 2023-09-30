@@ -1,10 +1,24 @@
+html, body {
+    height: 100%;
+}
+
 body{
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
     background-image: url(./images/sun-tornado.svg);
     background-size: cover;
 }
 
+.content{
+    flex: 1 0 auto;
+    position: relative;
+}
+
 ul{
+    display: flex;
+    justify-content: space-evenly;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -32,12 +46,33 @@ li a:hover{
 }
 
 footer{
+    display: flex;
+    justify-content: space-evenly;
     background-color: #3d3d3d;
-    position: relative;
+    flex-shrink: 0;
+}
+
+footer p{
+    font-weight: bold;
+    color: white;
+}
+
+footer a{
+    color: white;
 }
 
 #search{
-    margin-left: 650px;
+    display: block;
+    margin-left: 750px;
+}
+
+#logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
 }
 
 div.container{
@@ -49,7 +84,7 @@ div.container{
     justify-items: stretch;
     align-items: stretch;
     position: relative;
-padding-top: 20px;
+    padding-top: 20px;
     left: 5%;
 }
 .item-1{
