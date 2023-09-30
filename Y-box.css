@@ -39,3 +39,39 @@ footer{
 #search{
     margin-left: 650px;
 }
+
+div.container{
+    display: grid;
+    gap: 10px 10px;
+    width: fit-content;
+    grid-template-columns: [first] 1fr [line2];
+    grid-template-rows: [one] 1fr [two];
+    justify-items: stretch;
+    align-items: stretch;
+    position: relative;
+padding-top: 20px;
+    left: 5%;
+}
+.item-1{
+    display: flex;
+    justify-content: space-between;
+    grid-column: first;
+    grid-row: one;
+    height: 500px; width: 550px;
+}
+.item-2{
+        grid-column: line2;
+        grid-row: two;
+        height: 500px; width: 550px;
+}
+.item-3{
+
+        grid-column: first;
+        grid-row: two;
+        height: 500px; width: 550px;
+}
+.item-4{
+        grid-column: line2;
+        grid-row: one;        
+        height: 500px; width: 550px;
+}
