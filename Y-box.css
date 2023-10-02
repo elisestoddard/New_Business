@@ -110,3 +110,12 @@ div.container{
         grid-row: one;        
         height: 500px; width: 550px;
 }
+fieldset.main{
+    background-color: forestgreen;
+    color: #3d3d3d;
+    width: 50%;
+    position: absolute;
+    left: 20%;
+    top: 7%;
+    font-size: xx-large;
+}

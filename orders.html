@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+    <link rel="stylesheet" href="Y-box.css">
+
+</head>
+<body>
+
+<nav>
+        <ul>
+            <li><a href="Y-box.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="orders.html">Orders</a></li>
+        </ul>
+    </nav>
+    <fieldset class="main">
+        <h1>Payment form</h1>
+        <p>Required fields are followed by <strong><abbr title="Required">*</abbr></strong></p>
+        <h2>Contact information</h2>
+        <fieldset>
+            <legend>Product</legend>
+            <ul style="background-color: transparent;"><label for="Y-box">Y-box</label>
+            <input type="radio" value="Y-box" id="Y-box"></ul>
+            <ul style="background-color: transparent;"><label for="Controller">Controller</label>
+            <input type="radio" value="Controller" id="Controller"></ul>
+            <ul style="background-color: transparent;"><label for="Queen">Headphones</label>
+            <input type="radio" value="Headphones" id="Headphones"></ul>
+        </fieldset>
+        <br><ul style="background-color: transparent;">
+            <section>
+    <label for="username">
+    <span>Name:</span>
+    <strong><abbr title="Required">*</abbr></strong>
+    </label>
+    <input type="text" name="username" id="username">
+    </ul><ul style="background-color: transparent;">
+    
+        <label for="mail">
+            <span>E-mail:</span>
+            <strong><abbr title="Required">*</abbr></strong>
+            </label>
+    <input type="text" name="mail" id="mail">
+    </ul> <ul style="background-color: transparent;">
+    
+        <label for="Password">
+            <span>Password:</span>
+            <strong><abbr title="Required">*</abbr></strong>
+            </label>
+    <input type="password" name="Password" id="Password">
+    </ul>
+    </section>
+    <h2>Payment information</h2>
+    <ul style="background-color: transparent;">
+    <label for="card-type">Card type:</label>
+    <select name="card-type" id="card-type">
+        <option value="">-Please Choose An Option-</option>
+        <option value="Visa">Visa</option>
+        <option value="Mastercard">Mastercard</option>
+        <option value="American Express">Amex</option>
+        <option value="Discover">Discover</option>
+    </select>
+    </ul>
+    <ul style="background-color: transparent;">
+    <p>Card number:</p>
+    <strong><abbr title="Required">*</abbr></strong>
+    <input type="text">
+    </ul><ul style="background-color: transparent;">
+    <p>Expiration date:</p>
+    <strong><abbr title="Required">*</abbr></strong>
+    <input type="date" name="date" id="date">
+    
+    </ul>
+    <p><em>formatted as <br> mm/dd/yyyy</em></p>
+    
+    <a href="Y-box.html"><input type="submit" value="Validate the payment"></a>
+
+    </fieldset>
+
+    
+</body>
+</html>
