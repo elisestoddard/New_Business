@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Fortune;
+    src: url(Fortune.otf);
+}
+
 html, body {
     height: 100%;
 }
@@ -23,8 +28,10 @@ ul{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #3d3d3d;
+    background-color: #8a2be2;
     margin-bottom: 50px;
+    font-family: Fortune;
+    font-size: 20px;
 }
 
 li{
@@ -48,22 +55,28 @@ li a:hover{
 footer{
     display: flex;
     justify-content: space-evenly;
-    background-color: #3d3d3d;
+    background-color: #8a2be2;
     flex-shrink: 0;
-}
-
-footer p{
     font-weight: bold;
+    font-family: Fortune;
     color: white;
+
 }
 
 footer a{
     color: white;
 }
 
+.small-logo{
+    position: absolute;
+    left: 0;
+    width: 50px;
+    height: 50px;
+}
+
 #search{
     display: block;
-    margin-left: 750px;
+    margin-left: 675px;
 }
 
 #logo{
