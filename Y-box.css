@@ -54,7 +54,7 @@ li a{
 
 .list{
     display: flex;
-    justify-content: space-between;
+justify-content: space-between;
 }
 
 li a:hover{
@@ -147,4 +147,11 @@ video{
     position: relative;
     top: 0;
     left: 34%;
+}
+ul.services{
+    font-size: larger;
+    position: relative;
+
+    text-align: center;
+    
 }
