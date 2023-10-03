@@ -116,9 +116,9 @@ fieldset.main{
     background-size: cover;
     color: #3d3d3d;
     width: 50%;
-    position: absolute;
+    position: relative;
     left: 20%;
-    top: 7%;
+    top: 0%;
     font-size: xx-large;
 }
 video{
