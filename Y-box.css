@@ -84,8 +84,9 @@ div.container{
     justify-items: stretch;
     align-items: stretch;
     position: relative;
+    left: 15%;
     padding-top: 20px;
-    left: 5%;
+
 }
 .item-1{
     display: flex;
@@ -119,4 +120,9 @@ fieldset.main{
     left: 20%;
     top: 7%;
     font-size: xx-large;
+}
+video{
+    position: relative;
+    top: 0;
+    left: 34%;
 }
