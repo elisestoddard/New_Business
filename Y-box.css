@@ -7,8 +7,8 @@ body{
     flex-direction: column;
     margin: 0;
     padding: 0;
-    background-image: url(./images/sun-tornado.svg);
-    background-size: cover;
+    background-image: url(./images/dragon-scales.svg);
+    background-size: auto;
 }
 
 .content{
@@ -111,7 +111,8 @@ div.container{
         height: 500px; width: 550px;
 }
 fieldset.main{
-    background-color: forestgreen;
+    background-image: url(images/quantum-gradient.svg);
+    background-size: cover;
     color: #3d3d3d;
     width: 50%;
     position: absolute;
